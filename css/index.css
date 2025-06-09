@@ -701,9 +701,10 @@
     margin-bottom: 20px;
     line-height: 180%;
     font-weight: 500;
+    font-size: 20px;
 }
 .main .con7 .bgbox .inner .gage .gb .step p span {
-    font-size: 20px;
+    font-size: 24px;
     margin-left: 24px;
     color: #7ba7f6;
 }
