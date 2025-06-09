@@ -1,0 +1,148 @@
+#visual{
+    background-image: url(../img/pexels-nastyasensei-66707-335393.jpg);
+    background-size: cover;
+    background-position: 0 40%;
+}
+
+.sub3 .sub_nav_inner {
+}
+.sub3 .sub_nav_inner .sub_nav {
+    width: 1240px;
+    margin: auto;
+    margin-top: 60px;
+}
+.sub3 .sub_nav_inner .sub_nav .sub_gnb {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #b5b5b5;
+}
+.sub3 .sub_nav .sub_gnb li a {
+    position: relative;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 80px;
+    padding: 32px;
+    cursor: pointer;
+}
+.sub3 .sub_nav .sub_gnb li.on a {
+    color: #034ea2;
+    font-weight: 700;
+}
+.sub3 .sub_nav .sub_gnb li a::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    background: #034ea2;
+    border-radius: 4px;
+    transform: scaleX(0);
+    transition: 0.3s;
+}
+.sub3 .sub_nav .sub_gnb li a:hover::after {
+    transform: scaleX(1);
+}
+.sub3 .sub_nav .sub_gnb li a:hover {
+    transition: 0.3s;
+    background: #edf4ff;
+}
+
+/* sub_nav */
+.sub3 .con-box .box {
+    width: 1000px;
+    margin: auto;
+}
+.sub3 .con-box .box .title {
+    position: relative;
+}
+.sub3 .con-box .box .title h4 {
+    margin-top: 160px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #333333;
+    text-align: center;
+}
+.sub3 .con-box .box .title h4 + p {
+    position: absolute;
+    display: block;
+    right: 20px;
+    top: 80px;
+    font-size: 16px;
+    color: #333333;
+}
+/* title */
+.sub3 .con-box .box strong {
+    font-size: 26px;
+    color: #034ea2;
+    font-weight: 600;
+    line-height: 2.5;
+}
+.sub3 .con-box .box p {
+    font-size: 16px;
+    color: #333333;
+    line-height: 2;
+}
+/* con box 공통 */
+
+.sub3 .con-box .box1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid #034ea2;
+    margin-top: 70px;
+    padding: 100px 0;
+}
+.sub3 .con-box .box1 img {
+    width: 120px;
+    height: 120px;
+    display: block;
+}
+.sub3 .con-box .box1 .txt1 {
+    margin-left: 200px;
+}
+/* con box1 */
+
+.sub3 .con-box .box2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid #dedede;
+    padding: 100px 0;
+}
+.sub3 .con-box .box2 img {
+    width: 120px;
+    height: 120px;
+    display: block;
+}
+.sub3 .con-box .box2 .txt2 {
+    margin-right: 200px;
+}
+.sub3 .con-box .box2 .txt2 strong,
+.sub3 .con-box .box2 .txt2 p {
+    display: block;
+    text-align: right;
+}
+/* con box2 */
+
+.sub3 .con-box .box3 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid #dedede;
+    padding: 100px 0;
+    margin-bottom: 200px;
+}
+.sub3 .con-box .box3 img {
+    width: 110px;
+    height: 95px;
+    display: block;
+}
+.sub3 .con-box .box3 .txt3 {
+    margin-left: 200px;
+}
+/* con box3 */

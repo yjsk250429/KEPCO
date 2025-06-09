@@ -1,0 +1,118 @@
+#visual{
+    background-image: url(../img/bg23.jpg);
+}
+
+.sub .con-box {
+}
+.sub .con-box .inner {
+}
+.sub .con-box .inner p {
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 180%;
+    margin-bottom: 12px;
+}
+.sub .con-box .inner h3 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 180%;
+}
+
+/* ----- */
+#content .con-box {
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+}
+
+#content .inner {
+    width: 700px;
+}
+
+/* 상단 안내문 */
+#content h3 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    border-bottom: 1px solid #1c2d82;
+    padding-bottom: 15px;
+}
+
+.member-type {
+    font-size: 14px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.form-left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.form-left label.remember {
+    margin-left: auto;
+    font-size: 13px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+}
+
+.form-group label {
+    width: 60px;
+    font-size: 14px;
+}
+
+.form-group input[type='text'],
+.form-group input[type='password'] {
+    width: 300px;
+    height: 30px;
+    border: 1px solid #999;
+    padding: 0 8px;
+    font-size: 14px;
+}
+
+.form-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+form button[type='button'] {
+    width: 250px;
+    height: 80px;
+    background-color: #164194;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+form button[type='button']:hover {
+    background-color: #0055aa;
+}
+
+.links {
+    margin-top: 20px;
+    font-size: 13px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+}

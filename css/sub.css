@@ -1,0 +1,108 @@
+#visual {
+    width: 100%;
+    height: 450px;
+    /* background: pink; */
+}
+#visual .inner {
+    width: 1400px;
+    position: relative;
+}
+#visual .inner h2 {
+    position: absolute;
+    top: -150px;
+    line-height: 180%;
+    font-size: 40px;
+    font-weight: 600;
+}
+#visual .inner .guide {
+    position: absolute;
+    top: 370px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+#visual .inner .guide ul {
+    width: 1400px;
+    height: 80px;
+    background: #164194;
+    border-radius: 10px 10px 0px 0px;
+    padding: 18.5px 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+}
+#vsual .inner .guide ul {
+    display: flex;
+    flex-direction: row;
+}
+#vsual .inner .guide ul li {
+}
+#visual .inner .guide ul li a {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 180%;
+    margin-right: 100px;
+}
+#visual .inner .guide .share {
+    display: flex;
+    position: absolute;
+    right: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#visual .inner .guide .share a {
+    margin-left: 60px;
+}
+
+.sub1 .con-box {
+}
+.sub1 .con-box .inner {
+}
+.sub1 .con-box .inner p {
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 180%;
+    margin-bottom: 12px;
+}
+.sub1 .con-box .inner h3 {
+    margin-left: 20px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 180%;
+}
+
+.sub3 .con-box .inner {
+}
+.sub3 .con-box .inner p {
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 180%;
+    margin-bottom: 12px;
+}
+.sub3 .con-box .inner h3 {
+    margin-left: 20px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 180%;
+}
+.sub5 .con-box .inner {
+}
+.sub5 .con-box .inner p {
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 180%;
+    margin-bottom: 12px;
+}
+.sub5 .con-box .inner h3 {
+    margin-left: 20px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 180%;
+}

@@ -1,0 +1,114 @@
+#visual{
+    background-image: url(../img/pexels-pixabay-268533.jpg);
+    background-size: cover;
+    background-position: 0 55%;
+}
+
+
+.sub .con-box {
+}
+.sub .con-box .inner {
+    position: relative;
+}
+.sub .con-box .inner > p {
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 180%;
+    margin-bottom: 12px;
+}
+.sub .con-box .inner h3 {
+    margin-left: 20px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 180%;
+}
+.sub .con-box .inner > p:nth-of-type(2) {
+    font-size: 24px;
+    font-weight: 600;
+}
+.sub .con-box .inner::after {
+    content: '';
+    display: block;
+    width: 1400px;
+    height: 1px;
+    background: #000;
+    position: absolute;
+    top: 270px;
+}
+.sub .con-box .inner .gallery {
+    display: flex;
+    position: relative;
+}
+.sub .con-box .inner .gallery .left {
+}
+.sub .con-box .inner .gallery .left .title {
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 100px;
+    color: #164194;
+    margin-bottom: 50px;
+}
+.sub .con-box .inner .gallery .left img {
+    margin-bottom: 50px;
+    width: 1150px;
+}
+.sub .con-box .inner .gallery .left p {
+    width: 1150px;
+    margin-bottom: 180px;
+    font-size: 20px;
+    line-height: 200%;
+}
+
+.sub .con-box .inner .gallery .right {
+    position: absolute;
+    right: 0;
+    top: 210px;
+}
+.sub .con-box .inner .gallery .right ul {
+    position: relative;
+}
+.sub .con-box .inner .gallery .right ul::after {
+    content: '';
+    display: block;
+    width: 3px;
+    height: 240px;
+    background: #164194;
+    position: absolute;
+    left: -36px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: -10;
+}
+.sub .con-box .inner .gallery .right ul li {
+    cursor: pointer;
+    margin-bottom: 30px;
+    font-size: 18px;
+    position: relative;
+}
+.sub .con-box .inner .gallery .right ul li.on {
+    color: #164194;
+    font-weight: 500;
+}
+.sub .con-box .inner .gallery .right ul li::after {
+    content: '';
+    display: block;
+    width: 15px;
+    height: 15px;
+    border: 3px solid #164194;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    left: -45px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.sub .con-box .inner .gallery .right ul li.on::after {
+    content: '';
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: #164194;
+    border-radius: 50%;
+}

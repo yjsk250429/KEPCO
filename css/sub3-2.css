@@ -1,0 +1,140 @@
+#visual {
+    background-position: 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/bg19.jpg);
+}
+
+.sub .con-box .inner p {
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 180%;
+    margin-bottom: 12px;
+}
+.sub .con-box .inner h3 {
+    margin-left: 20px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 180%;
+}
+
+#info-box .inner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#info-box .search-bar {
+    display: flex;
+    width: 1000px;
+    height: 100px;
+    background-color: #164194;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 60px 0;
+    position: relative;
+}
+
+#info-box .search-bar span {
+    color: white;
+    font-size: 22px;
+    margin-right: 10px;
+}
+#info-box .search-bar a {
+    position: absolute;
+    font-size: 22px;
+    color: #f0f3f9;
+    top: 50px;
+    transform: translateY(-40%);
+}
+
+#info-box .search-bar input {
+    width: 600px;
+    height: 40px;
+    padding: 0 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+#info-box .search-bar button {
+    background: #164194;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/*  */
+.info-table {
+    width: 100%;
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.info-table thead th {
+    background: #f0f3f9;
+    font-weight: 700;
+    color: #333;
+    height: 40px;
+    border-top: 2px solid #164194;
+    border-bottom: none;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.info-table thead tr {
+    border-bottom: none;
+}
+
+.info-table tbody tr:first-child {
+    border-top: none;
+}
+
+.info-table tr {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-table td {
+    vertical-align: middle;
+    padding: 30px 0;
+}
+
+.info-table td a img {
+    vertical-align: middle;
+}
+.info-table th {
+    background: #f0f3f9;
+    font-weight: 700;
+    color: #333;
+}
+
+/*  */
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 60px;
+}
+
+.pagination a {
+    display: inline-block;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    color: #333;
+}
+
+.pagination a.on {
+    border-color: #164194;
+    color: #164194;
+    font-weight: bold;
+}

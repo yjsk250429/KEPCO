@@ -1,0 +1,262 @@
+#visual{
+    background-image: url(../img/pexels-nastyasensei-66707-335393.jpg);
+    background-size: cover;
+    background-position: 0 40%;
+}
+
+.sub5 .box {
+    margin: auto;
+    width: 1020px;
+    margin-top: 60px;
+    /* background: #e8e8e8; */
+}
+.sub5 .box1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1020px;
+    height: 100px;
+    background: #164194;
+    border-radius: 10px;
+    margin-bottom: 60px;
+}
+.sub5 .box1 .txt {
+    position: relative;
+    display: flex;
+}
+.sub5 .box1 .txt p {
+    font-size: 22px;
+    color: #ffffff;
+    display: inline;
+    margin-right: 84px;
+}
+.sub5 .box1 input[type='search'] {
+    border-radius: 10px;
+}
+.sub5 .box1 .txt a {
+    position: absolute;
+    left: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 24px;
+}
+.sub5 .box1 input[type='search'] {
+    width: 600px;
+    height: 40px;
+    background: #ffffff;
+    box-sizing: border-box;
+    border: 1px solid #6783b9;
+}
+/* 검색창 */
+
+.sub5 .box2 {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.sub5 .box2 .best {
+    text-align: center;
+    justify-items: center;
+    margin-left: 100px;
+    padding-top: 60px;
+}
+.sub5 .box2 .best img {
+    display: block;
+    width: 60px;
+    margin-bottom: 30px;
+}
+.sub5 .box2 .best strong {
+    font-size: 20px;
+    font-weight: 500;
+    color: #333333;
+}
+.sub5 .box2 .best span {
+    font-size: 36px;
+    color: #204d9c;
+    font-weight: 600;
+}
+.sub5 .box2 .text .list {
+    margin-right: 120px;
+}
+.sub5 .box2 .text .list li {
+    position: relative;
+    border-bottom: 1px solid #b0b0b0;
+    padding: 14px 0;
+    width: 600px;
+}
+.sub5 .box2 .text .list li.on {
+    border-bottom: 2px solid #204d9c;
+}
+
+.sub5 .box2 .text .list li.on span,
+.sub5 .box2 .text .list li.on strong {
+    font-weight: 600;
+    color: #204d9c;
+}
+.sub5 .box2 .text .list li {
+    display: block;
+    margin-left: 10px;
+    line-height: 1.5;
+}
+.sub5 .box2 .text .list li span {
+    font-size: 18px;
+    color: #72aaff;
+    font-weight: 600;
+    margin: 0 20px;
+}
+.sub5 .box2 .text .list li strong {
+    color: #333333;
+    font-size: 16px;
+}
+.sub5 .box2 .text .list i {
+    padding-left: 400px;
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 20px;
+}
+/* 자주 묻는 질문 BEST5*/
+
+.sub5 .box3 {
+    margin: 120px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.sub5 .btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    height: 260px;
+    border-radius: 20px;
+    padding: 20px;
+    cursor: pointer;
+    text-align: center;
+    border: 2px solid #204d9c;
+}
+.sub5 .btn1 img,
+.sub5 .btn2 img,
+.sub5 .btn3 img {
+    display: block;
+    width: 60px;
+    height: auto;
+    margin: 0 auto 20px;
+}
+.sub5 .btn3 img {
+    width: 54px;
+}
+.sub5 .btn strong {
+    display: block;
+    margin-top: 20px;
+    font-size: 24px;
+    color: #204d9c;
+    font-weight: 500;
+}
+.sub5 .btn p {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #646464;
+}
+/* on */
+.sub5 .btn.on {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    height: 260px;
+    border-radius: 20px;
+    padding: 20px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #204d9c;
+}
+.sub5 .btn.on .content strong {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 500;
+}
+.sub5 .btn.on .content p {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #ffffff;
+}
+/* 버튼 3개*/
+
+.sub5 .box4 {
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin: 0 -50vw 200px -50vw;
+    width: 100vw;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/bg_buil.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.sub5 .box4_inner {
+    position: relative;
+    margin: auto;
+}
+.sub5 .box4 strong {
+    display: flex;
+    text-align: center;
+    display: block;
+    font-size: 24px;
+    font-weight: 500;
+    color: #333333;
+}
+.sub5 .box4 .all a {
+    position: absolute;
+    right: 10px;
+    top: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #204d9c;
+    cursor: pointer;
+}
+.sub5 .box4 .search {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.sub5 .box4 #sel {
+    width: 120px;
+    height: 40px;
+    border: 1px solid #204d9c;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #204d9c;
+    padding-left: 15px;
+    margin-right: 20px;
+}
+.sub5 .box4 .search input[type='search'] {
+    width: 400px;
+    height: 40px;
+    border: 1px solid #204d9c;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.sub5 .box4 .search a {
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translateY(-50%);
+    color: #2049cd;
+    padding-right: 10px;
+    font-size: 18px;
+}
+/* 가까운 사업소 찾기 */
